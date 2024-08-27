@@ -10,6 +10,8 @@ import numpy as np
 from ..utils.log import _init_logger
 from ..utils.misc import camelcase2snakecase
 from .parse_base import ParseBase
+import xarray-dataTree
+
 
 FILENAME_DATETIME_AZFP = "\\w+.01A"
 

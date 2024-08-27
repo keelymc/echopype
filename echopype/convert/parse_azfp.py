@@ -16,6 +16,7 @@ FILENAME_DATETIME_AZFP = "\\w+.01A"
 # Common Sv_offset values for frequency > 38 kHz
 SV_OFFSET_HF = {
     300: 1.1,
+    320: 1.0,
     500: 0.8,
     700: 0.5,
     900: 0.3,
@@ -44,7 +45,7 @@ SV_OFFSET = {
     200000.0: {
         150: 1.4,
         250: 1.3,
-        320: 1.2,
+        320: 1.0,
         **SV_OFFSET_HF,
     },
     455000.0: {
